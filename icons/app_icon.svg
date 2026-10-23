@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect x="20" y="20" width="472" height="472" rx="110" fill="url(#bgGrad)" stroke="url(#goldGrad)" stroke-width="14"/>
+  <rect x="42" y="42" width="428" height="428" rx="92" fill="none" stroke="rgba(255,255,255,0.14)" stroke-width="3"/>
+  <g filter="url(#shadow)">
+    <rect x="95" y="285" width="54" height="115" rx="14" fill="#38bdf8"/>
+    <rect x="172" y="220" width="54" height="180" rx="14" fill="#34d399"/>
+    <rect x="249" y="150" width="54" height="250" rx="14" fill="url(#goldGrad)"/>
+  </g>
+  <path d="M95 235 L190 155 L255 180 L375 85" fill="none" stroke="url(#goldGrad)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" filter="url(#shadow)"/>
+  <polygon points="398,70 342,76 385,122" fill="url(#goldGrad)"/>
+  <g filter="url(#shadow)">
+    <circle cx="372" cy="322" r="80" fill="url(#goldGrad)" stroke="#ffffff" stroke-width="7"/>
+    <text x="372" y="356" font-family="Segoe UI, Arial, sans-serif" font-size="106" font-weight="900" fill="#0f172a" text-anchor="middle">$</text>
+  </g>
+</svg>

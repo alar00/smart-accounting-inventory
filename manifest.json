@@ -1,0 +1,23 @@
+{
+  "name": "المحاسب الذكي وإدارة المخزون",
+  "short_name": "المحاسب الذكي",
+  "description": "نظام محاسبة وقيود مالية وإدارة مستودعات متكامل يعمل أوفلاين على الكمبيوتر",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#1e3a8a",
+  "theme_color": "#1e3a8a",
+  "dir": "rtl",
+  "lang": "ar",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
